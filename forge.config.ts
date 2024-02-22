@@ -61,11 +61,13 @@ const config: ForgeConfig = {
   ],
   publishers: [
     new PublisherGithub({
-      "repository": {
-        "owner": "lvcabral",
-        "name": "roku-gpg"
-      }})
-    ]
+      repository: {
+        owner: "lvcabral",
+        name: "roku-gpg",
+      },
+      draft: true,
+    }),
+  ],
 };
 
 export default config;

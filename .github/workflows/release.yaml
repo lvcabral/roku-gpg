@@ -1,7 +1,9 @@
 # .github/workflows/release.yml
 name: Release app
 on:
-  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
 jobs:
   build:
     strategy:
