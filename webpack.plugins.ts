@@ -10,7 +10,7 @@ export const plugins = [
   }),
   new CopyWebpackPlugin({
     patterns: [
-      { context: "src/app/", from: "images/**", to: "../renderer" },
+      { context: "src/app/", from: "images/**", to: "../renderer/main_window" },
     ]
   })
 ];

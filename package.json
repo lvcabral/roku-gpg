@@ -3,6 +3,7 @@
   "productName": "Roku GamePad Gateway",
   "version": "1.0.0",
   "description": "App to allow control a Roku device with a GamePad.",
+  "icon": "src/images/icon.png",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",

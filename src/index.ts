@@ -17,6 +17,7 @@ const createWindow = (): void => {
     width: 1280,
     minHeight: 480,
     minWidth: 640,
+    icon: __dirname + "/images/icon.png",
     webPreferences: {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
     },
